@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = catdriveupload
+build_property.ProjectDir = /home/jack/Downloads/DotnetCore-StreamUpload/
