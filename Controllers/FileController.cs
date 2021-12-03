@@ -21,7 +21,7 @@ namespace catdriveupload.Controllers
             Content.ContentType = "text/html;charset=utf-8";
             if (isUpload)
             {
-                var filename = $"/mnt/disk1/${path}/";
+                var filename = $"/mnt/disk1/{path}/";
                 //string filename = @"G:\UploadingFiles\";
                 try
                 {
@@ -54,7 +54,7 @@ namespace catdriveupload.Controllers
             {
                 path = auth.path;
                 isUpload = true;
-                return Ok(new ResponseCode { code = "200", msg="验证成功！"});
+                return Ok(new ResponseCode { code = "200", msg = "验证成功！" });
             }
             else
             {
@@ -62,5 +62,5 @@ namespace catdriveupload.Controllers
             }
         }
     }
-   
+
 }

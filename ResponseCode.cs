@@ -8,6 +8,6 @@ namespace catdriveupload
     public class ResponseCode
     {
         public string code { get; set; }
-        public string msg { get; set; } 
+        public string msg { get; set; }
     }
 }
